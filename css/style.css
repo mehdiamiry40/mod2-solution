@@ -1,0 +1,73 @@
+/************ Base Style ************/
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+
+}
+.boxes{
+	border: 3px solid black;
+	background-color: silver;
+}
+.h2{
+	float: right;
+    border: 3px solid black;
+    margin: 0px;
+    width: 130px;
+    text-align: center;
+    font-size: 22px;
+    border-top: 0px;
+    border-right: 0px;
+    margin-bottom: 10px;
+}
+p{
+	color: black;
+	clear: right;
+	margin: 10px;
+	font-size: 18px;
+}
+.fh{
+	background-color: #37ac5b;
+}
+.sh{
+	background-color: #cf4054;
+}
+.th{
+	background-color: #e2d055;
+}
+/************ Large Devices Only ************/
+@media(min-width: 992px){
+	.lg{
+		float: left;
+		width: 31%;
+		margin: 5px;
+	}
+	.fb{
+	margin-left: 35px;
+	}
+}
+/************ Medium Devices Only ************/
+@media(min-width: 768px) and (max-width: 991px){
+	.md{
+		float: left;
+		width: 44%;
+		margin: 15px;
+	}
+	.fb{
+		margin-left: 40px;
+	}
+	.tb{
+		margin-left: 40px;
+		width: 91.66%;
+	}
+}
+/************ Small Devices Only ************/
+@media(max-width: 767px){
+	.sm{
+		width: 96%;
+		margin: 20px;
+	}
+}
